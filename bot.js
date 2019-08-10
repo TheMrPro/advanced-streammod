@@ -24,7 +24,7 @@ client.user.setStatus("dnd");
 
 
 const adminprefix = "$vip";
-const devs = ['454724311194927114'];
+const devs = ['591398805405171715'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
